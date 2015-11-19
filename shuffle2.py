@@ -16,8 +16,6 @@ import inspect
 # get length of list
 
 
-n = [0, 2, 6, 12, 20, 30, 42, 56, 72, 90]
-
 # n.reverse();
 # print n
 
