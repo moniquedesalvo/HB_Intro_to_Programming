@@ -25,13 +25,14 @@ def letter_grade(class_grades):
 	for i in class_grades:
 		if i >= 95:
 			a_grade.append(i)
-		if i >= 86 and i <= 94:
+		elif i >= 86 and i <= 94:
 			b_grade.append(i)
-		if i >= 76 and i <= 84:
+		elif i >= 76 and i <= 84:
 			c_grade.append(i)
-		if i >= 70 and i <= 75:
+		elif i >= 70 and i <= 75:
 			d_grade.append(i)
-		if i <= 69:
+		else:
+			i <= 69:
 			f_grade.append(i)
 
 	print "The A(s) are %r"  % (a_grade)
